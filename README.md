@@ -1,5 +1,4 @@
-readme_content = '''
-# Forex Project
+# Forex Trading Simulation
 
 
 A Python-based Forex application that fetches exchange rates and allows administrative access for managing data.
@@ -25,7 +24,8 @@ A Python-based Forex application that fetches exchange rates and allows administ
 ## Features
 
 
-- Fetches real-time exchange rates using the ExchangeRate Host API
+- Fetches real-time exchange rates using yfinance and the ExchangeRate Host API
+- Plots real-time financial data using mplfinance
 - Stores data in a local SQLite database (`main.db`)
 - Provides an admin interface with login credentials
 - Built using Python 3 and modular design
@@ -100,3 +100,8 @@ python main.py
 
 
 Use the following credentials to log in as an administrator:
+
+```bash
+admin
+123
+```
