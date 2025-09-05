@@ -95,13 +95,34 @@ python main.py
 
 ---
 
-
 ## Admin Login
 
 
 Use the following credentials to log in as an administrator:
 
-```bash
-admin
-123
+
+- **Username:** admin
+- **Password:** 123
+
+
+---
+
+
+## Project Structure
+
+
 ```
+Forex/
+├── config.json # API key configuration
+├── data_access.py # Database access functions
+├── db_setup.py # Database setup scripts
+├── main.db # SQLite database file
+├── main.py # Main application script
+├── other/
+│ └── requirements.txt # Python dependencies
+├── __pycache__/ # Compiled Python files
+└── README.md # Project documentation
+```
+
+
+---
