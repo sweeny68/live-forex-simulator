@@ -1,0 +1,4 @@
+yfinance
+mplfinance
+sv_ttk
+pandas
