@@ -1,6 +1,6 @@
 # Forex Trading Simulation
 
-A Python-based Forex application that fetches exchange rates and allows administrative access for managing data.
+A Python-based Forex application that fetches exchange rates and allows users to place simulated trades in real time as well as administrative access for managing data.
 
 ![forex1](https://github.com/user-attachments/assets/24dfd375-aec0-4b7e-aae3-fda3736c50ed)
 
